@@ -1,8 +1,7 @@
 #include <stdio.h>
-
 /**
-*main
-*Return
+*main - printing base16
+*Return: Always 0
 */
 int main(void)
 {
