@@ -3,10 +3,12 @@
 
 int main(void)
 {
-  int x = ("a");
-  while (x <= "z") {
-    putchar(x);
-    x ++;
-  }
+  char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+  int i;
+  for (i = 0; i< 26; i++)
+    {
+      putchar(alp[i]);
+    }
+      putchar('\n');
   return (0);
 }
