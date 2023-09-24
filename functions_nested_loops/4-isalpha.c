@@ -5,7 +5,7 @@
  *Return: 1 for a letter, 0 if it isn't
 */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 if (c >= 65 && c <= 122)
 {
