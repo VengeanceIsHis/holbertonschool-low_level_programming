@@ -5,7 +5,7 @@
  *Return: the absolute value
  */
 
-int abs(int n)
+int _abs(int n)
 {
 if (n >= 0)
 {
