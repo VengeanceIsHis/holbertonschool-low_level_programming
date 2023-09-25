@@ -1,8 +1,8 @@
 #include "main.h"
 #include "stdio.h"
 /**
- *
- *
+ *print_to_98 - prints any number to 98
+ *@n: print from this integer
  */
 
 void print_to_98(int n)
@@ -25,7 +25,7 @@ for (j = n; j >= 98; j--)
 if(j != 98)
 printf("%d, ", j);
 else if (j == 98)
-printf"%d\n", j);
+printf("%d\n", j);
 }
 }
 }
