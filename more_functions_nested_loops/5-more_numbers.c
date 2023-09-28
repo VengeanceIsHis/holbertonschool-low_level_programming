@@ -11,8 +11,10 @@ void more_numbers(void)
   while (b < 15)
     {
       _putchar(b);
+      b++;
 	}
 
   _putchar('\n');
+  a++;
 }
 }
