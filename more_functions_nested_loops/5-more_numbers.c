@@ -4,9 +4,9 @@
  */
 void more_numbers(void)
 {
-  int a = '0';
-  int b = '0';
-  while (a <= '9')
+  int a = 0;
+  int b = 0;
+  while (a <= 9)
 {
   while (b < 15)
     {
