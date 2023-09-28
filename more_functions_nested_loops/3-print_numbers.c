@@ -2,13 +2,13 @@
 /**
  *
  */
-void print_numbers(void)
+void print_numbers(int n)
 {
   int n = 48;
 while (n >= 48 && n<= 57)
 {
-_putchar(n)
-_putchar("\n")
+  putchar(n);
+  putchar("\n");
 }
  return (1);
 }
