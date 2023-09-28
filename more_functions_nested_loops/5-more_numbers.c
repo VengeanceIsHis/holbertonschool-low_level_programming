@@ -4,10 +4,15 @@
  */
 void more_numbers(void)
 {
-  char c;
-  for (c = 0; c < 15; c++)
+  int a = 0;
+  int b = 0;
+  while (a <= 9)
+{
+  while (b < 15)
     {
-   _putchar(c);
-}
+      _putchar(b)
+	}
+
   _putchar('\n');
+}
 }
