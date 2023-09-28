@@ -2,7 +2,7 @@
 /**
  *
  */
-void print_numbers(int n)
+void print_numbers(void)
 {
   char n = 0;
 while (n <= 9)
