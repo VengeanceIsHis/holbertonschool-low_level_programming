@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *print_diagonal - prints \ in a diagonal way
+ *@n: int that prints the \ for said line.
  *Return: no return
  */
 void print_diagonal(int n)
