@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ *print_line - prints underscore as many times as needed and then the next line
+ *@n: The number of underscores to draw
+*Return: no return
+ */
 void print_line(int n)
 {
 int x;
