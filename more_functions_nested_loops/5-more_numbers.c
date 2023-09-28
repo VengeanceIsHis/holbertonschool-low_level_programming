@@ -1,8 +1,6 @@
 #include "main.h"
 /**
  *more_numbers - prints numbers from 0 to 14 10 times
- *@a: int to count how many times the loop will be repeated
- *@b:integer used to count from 0 to 14
  *Return: void
  */
 void more_numbers(void)
