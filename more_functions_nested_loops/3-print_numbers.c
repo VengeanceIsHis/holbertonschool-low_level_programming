@@ -4,11 +4,10 @@
  */
 void print_numbers(int n)
 {
-  int n = 48;
-while (n >= 48 && n<= 57)
+  char n = 0;
+while (n <= 9)
 {
-  putchar(n);
-  putchar("\n");
+  _putchar(n);
 }
- return (1);
+ _putchar("\n")
 }
