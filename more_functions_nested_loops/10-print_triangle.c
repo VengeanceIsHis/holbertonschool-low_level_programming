@@ -22,6 +22,7 @@ _putchar(32);
 for (k = 0; k <= i; k++)
 {
 _putchar(35);
+ }
 _putchar('\n');
 }
 }
