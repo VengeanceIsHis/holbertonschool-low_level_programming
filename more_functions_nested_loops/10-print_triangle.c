@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- *
+ *print_triangle - prints a triangle in reverse.
+ *@size: the size of the triangle that is printed
+ *Return: no return
  */
 void print_triangle(int size)
 {
