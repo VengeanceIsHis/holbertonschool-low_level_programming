@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ *main - prints all numbers and changes multiples
+ *Return: Always 0
+ */
 int main(void)
 {
 int x;
