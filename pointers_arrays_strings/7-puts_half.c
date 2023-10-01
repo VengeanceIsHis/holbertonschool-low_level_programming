@@ -4,7 +4,7 @@
  *
  *
  */
-puts_half(char *str)
+void puts_half(char *str)
 {
   int a, n, len;
   len = 0;
