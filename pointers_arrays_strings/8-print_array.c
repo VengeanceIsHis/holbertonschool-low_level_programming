@@ -5,7 +5,7 @@
  *@n: is the number of elements to be printed
  *Return: n number of elements of an array
  */
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
 int i;
 for (i = 0; i < (n - 1); i++)
