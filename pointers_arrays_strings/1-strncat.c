@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_strncat - prints out 2 strings while on the second string prints out a certain amount.
+ *_strncat - prints out 2 strings with a limit for the second
  *@dest: 1st input value
  *@src: 2nd input value
  *@n: value that shows the amount of elements are printed
