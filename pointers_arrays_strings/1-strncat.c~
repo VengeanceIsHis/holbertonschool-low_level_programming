@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ *
+ *
+ *
+ *
+ */
+char *_strncat(char *dest, char *src, int n);
+{
+  int str1;
+  int str2;
+  if (dest[str1] < n)
+    {
+  while (dest[str1] != '\0')
+    {
+      str++;
+    }
+  while (src
