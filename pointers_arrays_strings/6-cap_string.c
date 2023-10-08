@@ -9,7 +9,7 @@ char *cap_string(char *str)
 int len = 0;
 while (str[len])
 {
-while (!(str[len] >= 'a' && str[index] <= 'z'))
+while (!(str[len] >= 'a' && str[len] <= 'z'))
 len++;
 if (str[len - 1] == ' ' ||
 str[len - 1] == '\t' ||
