@@ -7,7 +7,7 @@
 char *cap_string(char *str)
 {
 int len = 0;
-while (str[index])
+while (str[len])
 {
 while (!(str[len] >= 'a' && str[index] <= 'z'))
 len++;
@@ -26,7 +26,7 @@ str[len - 1] == '{' ||
 str[len - 1] == '}' ||
 len == 0)
 str[len] -= 32;
-len++
+len++;
 }
 return (str);
 }
