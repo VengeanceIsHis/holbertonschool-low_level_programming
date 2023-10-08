@@ -3,7 +3,7 @@
  *_strchr - finds first time a given character is present
  *@s: input string
  *@c: character to find
- *Return: pointer to the first occurrence of a given character or null if not found
+ *Return: if character given is present the pointer to that else null
  */
 char *_strchr(char *s, char c)
 {
