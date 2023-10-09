@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *print_diagsums - sum of two integers in a square
  *@a: input
@@ -18,5 +19,5 @@ for (b = size - 1; b >= 0; b--)
 {
 sum2 += a[b * size + (size - b -1)];
 }
-printf"%d, %d\n", sum1, sum2);
+printf("%d, %d\n", sum1, sum2);
 }
