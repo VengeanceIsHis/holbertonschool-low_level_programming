@@ -20,5 +20,5 @@ void _print_rev_recursion(char *s)
       s--;
     }
   _putchar('\n');
-  _print_rev_recursion(s)
+  _print_rev_recursion(s);
     }
