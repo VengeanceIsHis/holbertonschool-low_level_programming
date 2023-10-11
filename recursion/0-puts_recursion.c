@@ -1,4 +1,4 @@
-#0;276;0cinclude "main.h"
+#include "main.h"
 /**
  *_puts_recursion - recursive function that prints a string.
  *@s: string input
