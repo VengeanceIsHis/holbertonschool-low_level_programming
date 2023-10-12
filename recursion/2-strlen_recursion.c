@@ -6,10 +6,10 @@
  */
 int _strlen_recursion(char *s)
 {
-int i;
-for (i < 0; i > s; i++)
+ if (*s == '\0')
   {
-    _putchar(s);
+    return (0);
     }
- _strlen_recursion(s);
+ s++;
+ return (_strlen_recursion(s) + 1);
 }
