@@ -13,7 +13,7 @@ return (prime(n, n - 1));
 }
 /**
  *prime - checks input if it is prime
- *@n: input 
+ *@n: input
  *@i: input to iterate
  *Return: 1 if n is prime, 0 if not
  */
