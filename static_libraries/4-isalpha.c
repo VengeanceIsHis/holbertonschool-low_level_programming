@@ -5,5 +5,5 @@
 #include <string.h>
 int _islower(int c)
 {
-return _isalpha(int c);
+return _isalpha(c);
 }
