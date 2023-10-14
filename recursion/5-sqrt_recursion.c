@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
   while (j != i)
     {
       i = j;
-      j = (a / i + i) / 2;
+      j = (n / i + i) / 2;
     }
   return (j);
   _sqrt_recursion(n);
