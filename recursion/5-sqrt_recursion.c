@@ -16,5 +16,5 @@ int _sqrt_recursion(int n)
       j = (a / i + i) / 2;
     }
   return (j);
-  _sqrt_recursion(n)
+  _sqrt_recursion(n);
     }
