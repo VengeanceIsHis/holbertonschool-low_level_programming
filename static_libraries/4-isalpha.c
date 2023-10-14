@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-int _islower(int c)
+int _isalpha(int c)
 {
-return _isalpha(c);
+return isalpha(c);
 }
