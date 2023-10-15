@@ -23,7 +23,7 @@ for (j = 0; j < strlen(e); j++)
 {
 if (e[j] < 48 || e[j] > 57)
 {
-printf("Error");
+printf("Error\n");
 return (1);
 }
 }
