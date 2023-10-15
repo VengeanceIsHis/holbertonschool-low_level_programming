@@ -27,7 +27,7 @@ printf("Error\n");
 return (1);
 }
 }
-sum += atoi (e);
+sum += atoi(e);
 e++;
 }
 printf("%d\n", sum);
