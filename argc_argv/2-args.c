@@ -1,17 +1,15 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
- *
- *
- *
+ *main - prints all arguments with new line.
+ *@argc: argument count
+ *@argv: argument vector
+ *Return: Always 0
  */
 int main(int argc, char *argv[])
 {
-  char i;
-  (void) argc;
-  for (i = argv[0]; i < '\0'; i++)
-    printf("%s\n", i);
-  return (0);
+int i;
+for (i = 0; i < argc; i++)
+printf("%s\n", argc[i]);
+return (0);
+}
