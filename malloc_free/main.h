@@ -2,4 +2,5 @@
 #define main_h
 char *create_array(unsigned int size, char c);
 int _putchar(char c);
+char *strdup(char *str);
 #endif
