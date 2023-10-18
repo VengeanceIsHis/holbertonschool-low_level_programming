@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ *create_array - creates an array of characters.
+ *@size: size of array
+ *@c: the char to fill in the array
+ *Return: The array filled
  */
 char *create_array(unsigned int size, char c)
 {
