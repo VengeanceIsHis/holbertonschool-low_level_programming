@@ -1,0 +1,1 @@
+Learning memory allocations and further knowledge in C programming.
