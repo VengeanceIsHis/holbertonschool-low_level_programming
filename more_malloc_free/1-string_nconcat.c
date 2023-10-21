@@ -4,7 +4,7 @@
 /**
  *
  */
-char *string_nconcat(char *s1, char *s2, unisgned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
   int a;
   int b;
