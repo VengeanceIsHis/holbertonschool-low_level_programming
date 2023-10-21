@@ -1,4 +1,4 @@
-#include "main.h"
+#0;276;0cinclude "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -7,7 +7,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
   int a;
-  int b;
+ unsigned int b;
   int c;
   int d;
   char *s;
@@ -39,4 +39,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
       c++;
 }
 s[c] = '\0';
+}
 return (s);
