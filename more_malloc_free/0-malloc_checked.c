@@ -5,6 +5,7 @@
  *malloc_checked - allocates input amount of memory
  *@b: size of memory to allocate
  *Return: void
+ */
 void *malloc_checked(unsigned int b)
 {
 void *p;
