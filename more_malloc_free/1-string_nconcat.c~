@@ -1,0 +1,16 @@
+#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *
+ */
+char *string_nconcat(char *s1, char *s2, unisgned int n)
+{
+  int a;
+  int b;
+  if (s1 == NULL)
+    s1 = "";
+  while (s2[a] < n)
+{    if (s2 == NULL)
+      s2 = "";
+  
