@@ -23,7 +23,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
   l = i + k;
   else
     l = i + n;
-  s = malloc(sizeof(char) * l +1);
+  s = malloc(sizeof(char) * l + 1);
   if (s == NULL)
     return (NULL);
   k = 0;
