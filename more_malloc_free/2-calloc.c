@@ -6,7 +6,7 @@
  *
  *
  */
-void *_calloc(unsigned int nmeb, unsigned int size);
+void *_calloc(unsigned int nmeb, unsigned int size)
 {
 int a = 0, m = 0;
 char *s;
