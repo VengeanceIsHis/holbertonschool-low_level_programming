@@ -1,4 +1,4 @@
 #ifndef function_h
 #define function_h
-#define ABS(x) do {-1 * x} while (x < 0)
+#define ABS(x) ((x) < (0) ? -(x) : (x))
 #endif
