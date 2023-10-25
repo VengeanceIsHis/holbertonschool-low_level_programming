@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  *defines new type named dog
- */struct dog
+ */
+struct dog
 {
 char *name;
 float age;
