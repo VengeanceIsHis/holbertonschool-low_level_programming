@@ -7,7 +7,7 @@
  *
  *
  */
-dog_t *new_dog(char *name, float age. char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
   dog_t *big_dog;
   int N_L = 0;
