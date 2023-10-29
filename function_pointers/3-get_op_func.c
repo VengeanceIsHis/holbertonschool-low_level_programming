@@ -4,8 +4,8 @@
 #include <string.h>
 /**
  *get_op_func - function that gathers which operator to choose
- *
- *
+ *@s:input value
+ *Return: 0
  *
  */
 int (*get_op_func(char *s))(int, int)
