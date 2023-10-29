@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-#include <stdlb.h>
+#include <stdlib.h>
 #include <stdarg.h>
 /**
  *sum_them_all - function that adds all optional numbers given up to n
