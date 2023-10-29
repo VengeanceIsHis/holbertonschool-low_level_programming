@@ -3,6 +3,7 @@
 /**
  *struct op - Structure named op
  *@op: Operator
+ *@f: function associated
  */
 typedef struct op
 {
