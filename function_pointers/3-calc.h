@@ -1,5 +1,9 @@
 #ifndef main_h
 #define main_h
+/**
+ *struct op - Structure named op
+ *@op: Operator
+ */
 typedef struct op
 {
 char *op;
