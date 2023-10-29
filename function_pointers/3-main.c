@@ -5,7 +5,7 @@
  * main - function entry point
  *@argc: argument count
  *@argv: argument vector
- *return: 0
+ * return: 0
  */
 int main(int argc, char *argv[])
 {
