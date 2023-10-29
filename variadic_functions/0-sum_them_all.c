@@ -6,7 +6,7 @@
  *sum_them_all - function that adds all optional numbers given up to n
  *@n: max amount of input numbers to enter
  *@...: A variable number of input for sum
- *Return 0 if n is 0 else sum
+ *Return: 0 if n is 0 else sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
