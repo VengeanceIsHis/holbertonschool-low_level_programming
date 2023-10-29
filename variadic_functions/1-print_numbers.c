@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 /**
- *print_numbers - function that prints all given numbers followed by given string
+ *print_numbers - prints all given numbers followed by given string
  *@n: number of paramers to be added to function
  *@...: infinite variables to be added to function
  *@seperator: string to add in between each variable
