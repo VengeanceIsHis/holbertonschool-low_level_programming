@@ -6,8 +6,17 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-		list_t push;
-		struct list_s->str = str;
-		struct list_s->head = (*head);
-		(*head) = list_s;
+		list_t *push;
+		int length = 0;
+		push = malloc(sizeof(list_t));
+		if (push == NULL)
+			return (NULL);
+		while (str[length])
+			length++;
+		push->str = str;
+	push->len = length;
+	push->str = strdup(str);
+	push->next = *head;
+	*head = push;
+	return (push);
 }
