@@ -13,7 +13,7 @@ size_t list_len(const list_t *h)
 	{
 		elements = elements + 2;
 	}
-	h->next;
+	h = h->next;
 	}
 	return
 }
