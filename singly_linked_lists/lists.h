@@ -1,12 +1,12 @@
-#define main_h
 #ifndef main_h
+#define main_h
 #include <stddef.h>
 /**
  *struct list_s - singly linked list
  *@str: string - (malloc'ed string)
  *@len: length of the string
  *@next: points to the next node
- *DescriptionL singly linked node structure
+ *Description: singly linked node structure
  */
 typedef struct list_s
 {
