@@ -10,11 +10,8 @@
  */
 size_t print_list(const list_t *h)
 {
-  char *str = h;
-  unsigned int len;
-  if (str == NULL)
+  if (h != NULL)
     printf("[0] (nil)");
   else
-    len = strlen(str);
-  return (str);
+ return (len);
 }
