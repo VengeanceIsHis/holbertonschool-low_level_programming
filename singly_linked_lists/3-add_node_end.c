@@ -20,7 +20,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		free(push);
 		return (NULL);
 	}
-	push->len = strlen(new->str);
+	push->len = strlen(push->str);
 	push->next = NULL;
 	}
 	if (*head == NULL)
