@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- *
- *
- *
- */
+ *add_node_end - function that adds a node to the end of the linked list
+ *@head: node to be added
+ *@str: input value of the node input
+ *Return: The address of the inputted node */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *push;
