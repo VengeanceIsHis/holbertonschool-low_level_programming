@@ -19,19 +19,19 @@ list_t *add_node_end(list_t **head, const char *str)
 	{
 		free(push);
 		return (NULL);
-}
+	}
 	push->len = strlen(push->str);
 	push->next = NULL;
 	if (*head == NULL)
 	{
 		*head = push;
-	return (push);
+		return (push);
 	}
-current_node = *head;
-		while (current_node->next)
-		{
-			current_node = current_node->next;
-		}
-			current_node->next = push;
+	current_node = *head;
+	while (current_node->next)
+	{
+		current_node = current_node->next;
+	}
+	current_node->next = push;
 	return (push);
 }
