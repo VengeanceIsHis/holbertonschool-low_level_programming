@@ -17,5 +17,5 @@ if (head == NULL)
 return (NULL);
 head = head->next;
 }
-return (head);	
+return (head);
 }
