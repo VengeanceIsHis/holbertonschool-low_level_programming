@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- *
- *
- *
- *
+ *sum_listint - returns sum of all integers in list
+ *@head: input first node
+ *Return: sum or 0 if error
  */
 int sum_listint(listint_t *head)
 {
