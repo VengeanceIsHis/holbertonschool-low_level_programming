@@ -14,7 +14,7 @@ listint_t tmp;
 		return (0);
 	n = (*head)->n;
 	tmp = *head;
-		*head = (*head)->next;
+		*head = *(head)->next;
 		free(tmp);
 		return (n);
 }
