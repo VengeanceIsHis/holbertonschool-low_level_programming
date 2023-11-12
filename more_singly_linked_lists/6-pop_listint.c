@@ -1,10 +1,9 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ *pop_listint - function that deletes the head node
+ *@head: input node to delete
+ *Return: The data in node
  */
 int pop_listint(listint_t **head)
 {
