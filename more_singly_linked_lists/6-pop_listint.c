@@ -12,9 +12,9 @@ int n;
 listint_t tmp;
 	if (*head == NULL || head == NULL)
 		return (0);
-	n = *head->n;
+	n = (*head)->n;
 	tmp = *head;
-		*head = *head->next;
+		*head = (*head)->next;
 		free(tmp);
 		return (n);
 }
