@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stddef.h>
 /**
  *
  *
@@ -21,3 +22,5 @@ size_t print_dlistint(const dlistint_t *h)
 nodes++;
 tmp = current;
 		}
+		return (nodes);
+}
