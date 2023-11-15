@@ -2,10 +2,9 @@
 #include <stddef.h>
 #include <stdio.h>
 /**
- *
- *
- *
- *
+ *print_dlistint - prints elements of all nodes
+ *@h: pointer to a node in list
+ *Return: Number of nodes in list
  */
 size_t print_dlistint(const dlistint_t *h)
 {
