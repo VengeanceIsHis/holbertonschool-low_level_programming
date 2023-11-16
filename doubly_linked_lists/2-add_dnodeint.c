@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  *
  *
@@ -8,7 +9,7 @@
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *new
+	dlistint_t *new;
 	dlistint_t *tmp;
 	new = malloc(sizeof(dlistint_t));
 	if (new == NULL)
