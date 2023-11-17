@@ -6,7 +6,7 @@
  */
 dlistint_t *get_dnode_at_index(dlistint_t *head, unsigned int index)
 {
-int count;
+unsigned int count;
 if (head == NULL)
 		return (NULL);
 	for (count = 0; count < index; count++)
