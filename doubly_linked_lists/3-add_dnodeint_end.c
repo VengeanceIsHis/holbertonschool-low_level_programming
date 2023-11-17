@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  *
  *
@@ -8,6 +9,7 @@
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
+	int count;
 	dlistint_t *new;
 	dlistint_t *tmp;
 	new = malloc(sizeof(dlistint_t));
@@ -26,7 +28,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	new->n = n;
 	while (tmp != new)
 	{
-		tmp = tmp->next
+		tmp = tmp->next;
 	}
 	tmp->next = new;
 	new->prev = tmp;
