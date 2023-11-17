@@ -15,9 +15,9 @@ if (head == NULL)
 tmp = head;
 while (tmp)
 {
-	if (index == size)
+	if (index == count)
 		return (tmp);
-	size++;
+	count++;
 	tmp = tmp->next;
 }
 return (NULL);
