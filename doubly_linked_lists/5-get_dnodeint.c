@@ -13,5 +13,9 @@ if (head == NULL)
 	{
 		head = head->next;
 	}
-	return (head);
+	if (head != NULL)
+		return (head);
+	else
+		printf("(nil)");
+	return (NULL);
 }
