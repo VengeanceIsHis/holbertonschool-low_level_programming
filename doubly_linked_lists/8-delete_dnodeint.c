@@ -22,7 +22,7 @@ else
 *head = (*head)->next;
 while (tmp->n)
 {
-	free (tmp->n)
+	free (tmp->n);
 }
 free (tmp);
 return (1);
