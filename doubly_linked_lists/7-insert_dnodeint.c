@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
- *
- *
+ *insert_dnodeint_at_index - adds a node to the nth spot
+ *@h: pointer to a node in a list
+ *@n: data of new node to be added
+ *idx: indicator for which place to insert node
+ *Return: the address of added node
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
