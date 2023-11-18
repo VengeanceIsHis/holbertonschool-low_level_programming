@@ -20,10 +20,7 @@ return (-1);
 else
 	tmp = *head;
 *head = (*head)->next;
-while (tmp->n)
-{
 	free (tmp->n);
-}
 free (tmp);
 return (1);
 }
