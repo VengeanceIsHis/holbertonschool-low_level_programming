@@ -31,7 +31,7 @@ new->prev = tmp;
 new->next = current;
 for (i = 0; current != NULL; i++)
 {
-	current = current->next
+	current = current->next;
 }
 }
 else 
