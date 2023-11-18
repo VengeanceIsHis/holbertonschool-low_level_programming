@@ -27,6 +27,7 @@ if (tmp != NULL)
 }
 new = tmp;
 new->prev = tmp;
+}
 else 
 {
 *h = new;
