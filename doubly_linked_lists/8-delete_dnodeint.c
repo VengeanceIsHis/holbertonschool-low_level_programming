@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ *delete_dnodeint_at_index - deletes a node at the nth place
+ *@head: pointer to the first node in a given list
+ *@index: indicator for the node to be deleted
+ *Return: 1 for completed function and -1 for error
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -34,7 +34,7 @@ current->next = tmp->next;
 if (tmp->next != NULL)
 tmp->next->prev = current;
 
-free (tmp);
+free(tmp);
 
 return (1);
 }
