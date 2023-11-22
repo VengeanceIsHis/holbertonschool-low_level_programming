@@ -1,5 +1,6 @@
 #include "hash_tables.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  *
  *
@@ -12,7 +13,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	
 	if (size == 0)
 		return (NULL);
-	hash = calloc(sizeof(hash_table_t *));
+	hash = calloc(1, sizeof(hash_table_t *));
 	if (hash == NULL)
 		return (NULL);
 	hash->size = size;
