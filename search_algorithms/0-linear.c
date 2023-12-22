@@ -9,11 +9,11 @@ int linear_search(int *array, size_t size, int value)
   int result = 0;
   for (i = 0; i < size; i++)
     {
-      printf("Value checked array[%d] = [%d]");
+      printf("Value checked array[%d] = [%d]", i, array[i]);
       if (strcmp(array[i], value) == 0)
 	{
 	  result = 1;
-	  printf("Found %d at index: %d");
+	  printf("Found %d at index: %d", value, i);
 	  break;
 	}
       else
