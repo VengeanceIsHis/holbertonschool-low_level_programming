@@ -1,4 +1,5 @@
 #include "search_algos.h"
+#include <math.h>
 /**
  *
  *
@@ -26,7 +27,7 @@ int binary_search(int *array, size_t size, int value)
       term = mid * pow(2, exponent);
       if (hold[mid] == value)
 	{
-	  result = mid + term
+	  result = mid + term;
 	  break;
 	}
       else if (hold[mid] < value)
