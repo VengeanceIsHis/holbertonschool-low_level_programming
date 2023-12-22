@@ -6,9 +6,9 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-  size_t i, mid, hsize = size;
+  size_t i, mid, hsize = size, power, exponent, term;
   int *hold = array;
-  int result = -1, term, exponent, power;
+  int result = -1;
   while (hsize > 0)
     {
       printf("Searching in array: ");
@@ -26,7 +26,7 @@ int binary_search(int *array, size_t size, int value)
 	  power *= 2;
 	  exponent++;
 	}
-      term = mid * power
+      term = mid * power;
       if (hold[mid] == value)
 	{
 	  result = mid + term;
