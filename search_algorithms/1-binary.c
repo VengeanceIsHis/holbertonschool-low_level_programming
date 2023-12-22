@@ -15,18 +15,18 @@ int binary_search(int *array, size_t size, int value)
       for (i = 0; i < hsize; i++)
 	{
 	  printf("%d", hold[i]);
-	  if (i < hsize - 1);
+	  if (i < hsize - 1)
 	  printf(", ");
 	}
       printf("\n");
       mid = hsize/2;
-      if (hold[middle] == value)
-	return (middle);
+      if (hold[mid] == value)
+	return (mid);
       else if (hold[hsize] < value)
-	hold = hold + middle + 1;
-      hsize -= middle + 1;
+	hold = hold + mid + 1;
+      hsize -= mid + 1;
       else
-	hsize = middle;
+	hsize = mid;
     }
     }
   else if (size < 2)
