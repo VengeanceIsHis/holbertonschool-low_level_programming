@@ -8,6 +8,8 @@ int binary_search(int *array, size_t size, int value)
   size_t i, j = 0, mid, hsize = size;
   int *hold = array;
   int result = -1;
+  int exponent;
+  int term;
   while (hsize > 0)
     {
       j++;
@@ -20,9 +22,11 @@ int binary_search(int *array, size_t size, int value)
 	}
       printf("\n");
       mid = hsize/2;
+      exponent = log2(size / hsize);
+      term = mid * pow(2, exponent);
       if (hold[mid] == value)
 	{
-	  result = mid + hsize^j;
+	  result = mid + term
 	  break;
 	}
       else if (hold[mid] < value)
