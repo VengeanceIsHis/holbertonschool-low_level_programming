@@ -1,4 +1,4 @@
-#include "search_algos.h"
+#include "search_alos.h"
 /**
  *
  *
@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 	  result = mid;
 	  break;
 	}
-      else if (hold[hsize] < value)
+      else if (hold[mid] < value)
 	{
 	  hold = hold + mid + 1;
       hsize -= mid + 1;
@@ -34,4 +34,3 @@ int binary_search(int *array, size_t size, int value)
     }
   return result;
 }
-
