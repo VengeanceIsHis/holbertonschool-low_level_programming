@@ -10,7 +10,7 @@ int linear_search(int *array, size_t size, int value)
   for (i = 0; i < size; i++)
     {
       printf("Value checked array[%lu] = [%d]", i, array[i]);
-      if (strcmp(array[i], value) == 0)
+      if (array[i] == value)
 	{
 	  result = 1;
 	  printf("Found %d at index: %lu", value, i);
@@ -21,4 +21,6 @@ int linear_search(int *array, size_t size, int value)
     }
   if (result == 1)
 	return (value);
+  else
+    return (-1);
 }
