@@ -30,6 +30,7 @@ int binary_search(int *array, size_t size, int value)
           printf(", ");
         }
       printf("\n");
+	}
       while (power < size/hsize)
 	{
 	  power *= 2;
@@ -48,6 +49,5 @@ int binary_search(int *array, size_t size, int value)
 	}
       else
 	hsize = mid;
-    }
   return result;
 }
