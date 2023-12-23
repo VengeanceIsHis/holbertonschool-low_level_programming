@@ -30,13 +30,13 @@ int binary_search(int *array, size_t size, int value)
       term = mid * power;
       if (hold[mid] == value)
 	return (term + mid);
-      if (hold[mid] < value)
+      else if (hold[mid] < value)
 	{
 	  hold = hold + mid;
       hsize -= mid;
 	}
-      else if
-	hsize = mid -1;
+      else
+       hsize = mid -1;
     }
   return ans;
 }
