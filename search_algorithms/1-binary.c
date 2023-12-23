@@ -28,9 +28,10 @@ int binary_search(int *array, size_t size, int value)
 	  exponent++;
 	}
       term = mid * power;
-      if (mid == 1)
+      if (hold[mid] == value)
 	{
 	  result = 1;
+	  printf("Searching in array: %d", value);
 	  ans = mid + term;
 	  break;
 	}
