@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 	  printf(", ");
 	}
       printf("\n");
-      mid = hsize/2 - 1;
+      mid = hsize/2;
       exponent = 0;
       power = 1;
       while (power < size/hsize)
