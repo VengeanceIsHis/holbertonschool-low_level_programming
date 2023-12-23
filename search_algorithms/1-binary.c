@@ -28,20 +28,13 @@ int binary_search(int *array, size_t size, int value)
 	  exponent++;
 	}
       term = mid * power;
-      if (hold[mid] == value)
-	{
-	  result = 1;
-	  printf("Searching in array: %d", value);
-	  ans = mid + term;
-	  break;
-	}
-      else if (hold[mid] < value)
+      if (hold[mid] < value)
 	{
 	  hold = hold + mid;
       hsize -= mid;
 	}
       else
-	hsize = mid;
+	hsize = mid -1;
 	}
   return ans;
 }
