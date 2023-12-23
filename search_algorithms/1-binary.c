@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 	  printf(", ");
 	}
       printf("\n");
-      mid = hsize/2;
+      mid = hsize/2 - 1;
       exponent = 0;
       power = 1;
       while (power < size/hsize)
@@ -29,7 +29,7 @@ int binary_search(int *array, size_t size, int value)
 	}
       term = mid * power;
       if (hold[mid] == value)
-	return (term + mid);
+      return (term + mid);
       else if (hold[mid] < value)
 	{
 	  hold = hold + mid;
