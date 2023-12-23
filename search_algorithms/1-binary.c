@@ -28,7 +28,7 @@ int binary_search(int *array, size_t size, int value)
 	  exponent++;
 	}
       term = mid * power;
-      if (hold[mid] == value)
+      if (mid == 1)
 	{
 	  result = 1;
 	  ans = mid + term;
