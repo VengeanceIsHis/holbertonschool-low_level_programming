@@ -28,15 +28,18 @@ int binary_search(int *array, size_t size, int value)
 	  exponent++;
 	}
       term = mid * power;
+      while (mid < 2)
+	{
       if (hold[mid] == value)
       return (term + mid);
+	}
       else if (hold[mid] < value)
 	{
-	  hold = hold + mid;
-      hsize -= mid;
+	  hold = hold + mid - 1;
+	  hsize -= mid;
 	}
       else
-       hsize = mid;
+       hsize = mid-1;
     }
   return ans;
 }
